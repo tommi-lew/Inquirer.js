@@ -23,5 +23,5 @@ export function usePrefix(isLoading: boolean = false): string {
     return chalk.yellow(spinner.frames[frame]);
   }
 
-  return chalk.green('?');
+  return '';
 }
